@@ -1,3 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap");
 
-$title_clamp: clamp(3.5rem, 5vw, 7vw);
+$title_clamp: clamp(3rem, 5vw, 7vw);
+
+body {
+  font-family: "Gothic A1", sans-serif;
+}
+
+.main-title {
+  color: $white;
+  font-size: $title_clamp;
+  text-align: center;
+  padding-bottom: 5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  span {
+    color: $mint;
+  }
+}
+
+.title-white {
+  color: $white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: 700;
+}
+
+.title-black {
+  color: $navy;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: 700;
+}
