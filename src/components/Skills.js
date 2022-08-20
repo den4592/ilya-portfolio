@@ -6,7 +6,9 @@ const Skills = () => {
     <section className="skills-section">
       <div className="container">
         <div className="skills">
-          <h1 className="title-black">Skills</h1>
+          <h1 className="title-black">
+            <span>Skills</span>
+          </h1>
           <div className="skills__container">
             <div className="skills__container-content">
               <p className="icon first-icon">

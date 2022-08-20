@@ -1,0 +1,43 @@
+.skills {
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 5rem;
+    &-content {
+      width: 100%;
+      max-width: 20rem;
+      height: 30rem;
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        -webkit-transition: all 0.3s 0s ease-in-out;
+        -moz-transition: all 0.3s 0s ease-in-out;
+        -o-transition: all 0.3s 0s ease-in-out;
+        transition: all 0.3s 0s ease-in-out;
+      }
+      .icon {
+        font-size: 2rem;
+        display: flex;
+        padding: 2rem;
+      }
+      .content-title {
+        color: $navy;
+        padding: 0 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .skills-text {
+        padding: 2rem;
+        list-style: inside;
+        line-height: 3rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

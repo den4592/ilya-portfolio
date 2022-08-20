@@ -24,6 +24,14 @@ body {
   font-size: 2rem;
   padding: 1rem 0;
   font-weight: 700;
+  position: relative;
+  span {
+    padding-bottom: 0.5rem;
+    background-image: linear-gradient(to right, $mint 0%, $mint 100%);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+  }
 }
 
 .title-black {
@@ -32,4 +40,12 @@ body {
   font-size: 2rem;
   padding: 1rem 0;
   font-weight: 700;
+  position: relative;
+  span {
+    padding-bottom: 0.5rem;
+    background-image: linear-gradient(to right, $mint 0%, $mint 100%);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+  }
 }
