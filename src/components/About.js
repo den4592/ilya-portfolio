@@ -1,4 +1,5 @@
 import Skills from "./Skills";
+
 const About = () => {
   return (
     <main>
