@@ -11,14 +11,15 @@ nav {
     justify-content: center;
     list-style: none;
     li {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: 700;
       padding: 1rem;
+      display: flex;
+      align-items: center;
       a {
         color: $navy;
         text-decoration: none;
         background: linear-gradient(to right, $mint, $mint);
-        padding-bottom: 0.5rem;
         background-size: 0 3px, 100% 3px;
         background-position: 100% 100%, 0 100%;
         background-repeat: no-repeat;

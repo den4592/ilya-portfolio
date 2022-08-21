@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { AiFillGithub } from "react-icons/ai";
 
 const Nav = () => {
   const scrollToTop = () => {
@@ -17,6 +18,15 @@ const Nav = () => {
           </li>
           <li onClick={scrollToTop}>
             <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <a
+              style={{ fontSize: "1.3rem" }}
+              href="https://github.com/den4592"
+              target="__blank"
+            >
+              <AiFillGithub />
+            </a>
           </li>
         </ul>
       </div>
