@@ -40,6 +40,78 @@ section {
   position: relative;
 }
 
+.contact {
+  margin-top: 7rem;
+  form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 100%;
+      padding: 0.7rem;
+      max-width: 300px;
+    }
+    textarea {
+      width: 100%;
+      padding: 0.7rem;
+      min-height: 5rem;
+      max-height: 15rem;
+      max-width: 300px;
+    }
+    input + input {
+      margin: 1rem 0;
+    }
+    input:focus,
+    textarea:focus {
+      background-color: $gray;
+      outline: 1px solid $mint;
+    }
+  }
+  .submit-btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem 0;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 100px;
+    background-color: $mint;
+    color: $white;
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+  .contacts {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    .item {
+      display: flex;
+      align-items: center;
+      line-height: 0;
+      margin-top: 3rem;
+      span {
+        font-size: 1.2rem;
+        &:nth-child(1) {
+          padding-right: 1rem;
+          color: $blue;
+        }
+        &:nth-child(2) {
+          font-weight: 700;
+        }
+      }
+    }
+    .item + .item {
+      margin-top: 2rem;
+    }
+  }
+  h2 {
+    padding-top: 5rem;
+    line-height: 3rem;
+  }
+}
+
 /*media query*/
 @media screen and (min-width: 480px) {
   .project-content {

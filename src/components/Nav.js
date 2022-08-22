@@ -20,11 +20,7 @@ const Nav = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a
-              style={{ fontSize: "1.3rem" }}
-              href="https://github.com/den4592"
-              target="__blank"
-            >
+            <a href="https://github.com/den4592" target="__blank">
               <AiFillGithub />
             </a>
           </li>
