@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
+import selfi from "../assets/img/selfi.jpeg";
 
 const Contact = () => {
   const form = useRef();
@@ -71,6 +72,10 @@ const Contact = () => {
             </button>
           </form>
           <div className="contacts">
+            <div className="selfi">
+              <img src={selfi} />
+            </div>
+
             <div className="email item">
               <span>
                 <MdEmail />
@@ -84,7 +89,6 @@ const Contact = () => {
               <span>010-8561-1536</span>
             </div>
           </div>
-          <h2 className="title-black">포트폴리오를 봐주셔서 감사합니다.</h2>
         </div>
       </div>
     </section>
