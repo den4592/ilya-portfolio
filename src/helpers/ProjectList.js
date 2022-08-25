@@ -35,7 +35,7 @@ export const ProjectList = [
   },
   {
     title: "Mobile Wedding Invitation",
-    text: "지인의 부탁으로 모바일 청첩장을 구현하게 되었습니다. 방명록 기능 때문에 데이터베이스와 서버가 필요하게 되어 아키텍처를 클라이언트(React-배포:Netlify) / 서버(Express.js-배포:Heroku) 구조로 분할 후 개발을 진행하였습니다. 각정 애니메이션 효과들은 gsap을 통해 구현하였습니다.",
+    text: "지인의 부탁으로 모바일 청첩장을 구현하게 되었습니다. 방명록 기능 때문에 데이터베이스와 서버가 필요하게 되어 아키텍처를 클라이언트(React-배포:Netlify) / 서버(Express.js-배포:Heroku) 구조로 분할 후 개발을 진행하였습니다. 각종 애니메이션 효과들은 gsap을 통해 구현하였습니다.",
     img: wedding_invitation,
     build_stack: ["MongoDB", "Express.js", "React", "Node.js", "gsap"],
     link: "https://byeongju-ilsun.netlify.app",

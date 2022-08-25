@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
-import selfi from "../assets/img/selfi.jpeg";
+import selfie from "../assets/img/selfie.jpeg";
 
 const Contact = () => {
   const form = useRef();
@@ -72,8 +72,8 @@ const Contact = () => {
             </button>
           </form>
           <div className="contacts">
-            <div className="selfi">
-              <img src={selfi} />
+            <div className="selfie">
+              <img src={selfie} />
             </div>
 
             <div className="email item">

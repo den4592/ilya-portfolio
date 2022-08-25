@@ -303,10 +303,10 @@ nav {
     max-width: 300px;
     margin: 0 auto;
     margin-top: 3rem; }
-    .contact .contacts .selfi {
+    .contact .contacts .selfie {
       display: flex;
       justify-content: center; }
-      .contact .contacts .selfi img {
+      .contact .contacts .selfie img {
         width: 11rem;
         height: 15rem;
         border: 3px solid #5bd3c7;
