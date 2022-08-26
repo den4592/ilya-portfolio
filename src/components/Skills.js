@@ -1,5 +1,6 @@
 import { FiServer } from "react-icons/fi";
 import { RiComputerLine } from "react-icons/ri";
+import { AiOutlineSetting } from "react-icons/ai";
 
 const Skills = () => {
   return (
@@ -11,10 +12,10 @@ const Skills = () => {
           </h1>
           <div className="skills__container">
             <div className="skills__container-content">
-              <p className="icon first-icon">
+              <p className="icon black-icon">
                 <RiComputerLine />
               </p>
-              <p className="content-title">Front-end</p>
+              <p className="content-title">Front-end.</p>
               <ul className="skills-text blue-text">
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -24,15 +25,26 @@ const Skills = () => {
               </ul>
             </div>
             <div className="skills__container-content">
-              <p className="icon second-icon">
+              <p className="icon mint-icon">
                 <FiServer />
               </p>
-              <p className="content-title">Back-end</p>
+              <p className="content-title">Back-end.</p>
               <ul className="skills-text mint-text">
                 <li>Express.js</li>
                 <li>Node.js</li>
                 <li>MongoDB</li>
                 <li>AWS</li>
+              </ul>
+            </div>
+            <div className="skills__container-content">
+              <p className="icon black-icon">
+                <AiOutlineSetting />
+              </p>
+              <p className="content-title">Etc.</p>
+              <ul className="skills-text blue-text">
+                <li>Git</li>
+                <li>Github</li>
+                <li>Slack</li>
               </ul>
             </div>
           </div>

@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import selfie from "../assets/img/selfie.jpeg";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const form = useRef();
@@ -40,7 +41,12 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-section">
+    <motion.section
+      className="contact-section"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="container">
         <div className="contact">
           <h1 className="title title-black">
@@ -91,7 +97,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

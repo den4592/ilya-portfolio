@@ -3,6 +3,7 @@ import { ProjectList } from "../helpers/ProjectList";
 import { TiArrowBack } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const ProjectContent = () => {
   const { id } = useParams();
@@ -11,11 +12,15 @@ const ProjectContent = () => {
 
   const navigateBack = () => {
     navigate("/projects");
-    window.scrollTo(0, 0);
   };
 
   return (
-    <div className="project-content">
+    <motion.div
+      className="project-content"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="container">
         <span className="back-btn" onClick={navigateBack}>
           <TiArrowBack />
@@ -44,7 +49,7 @@ const ProjectContent = () => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

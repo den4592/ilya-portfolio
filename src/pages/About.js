@@ -1,8 +1,13 @@
 import Skills from "../components/Skills";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <section className="about-section">
         <div className="container">
           <div className="about">
@@ -31,7 +36,7 @@ const About = () => {
         </div>
       </section>
       <Skills />
-    </main>
+    </motion.main>
   );
 };
 
