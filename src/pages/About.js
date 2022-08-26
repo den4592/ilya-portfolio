@@ -3,11 +3,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.main
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
+    <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <section className="about-section">
         <div className="container">
           <div className="about">

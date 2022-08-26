@@ -19,7 +19,6 @@ const ProjectContent = () => {
       className="project-content"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
     >
       <div className="container">
         <span className="back-btn" onClick={navigateBack}>
