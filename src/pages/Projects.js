@@ -1,6 +1,8 @@
 import { ProjectList } from "../helpers/ProjectList";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Projects = () => {
   const navigate = useNavigate();
@@ -32,7 +34,12 @@ const Projects = () => {
                     window.scrollTo(0, 0);
                   }}
                 >
-                  <img src={project.img} />
+                  <LazyLoadImage
+                    effect="blur"
+                    src={project.img}
+                    alt="project_image"
+                  />
+
                   <div className="inner-text">
                     <h2>{project.title}</h2>
                   </div>
