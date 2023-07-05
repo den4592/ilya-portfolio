@@ -24,7 +24,11 @@ const Projects = () => {
                   whileHover={{ scale: 1.1 }}
                   key={idx}
                   onClick={() => {
-                    navigate("/projects/" + idx);
+                    navigate("/projects/" + project.id, {
+                      state: {
+                        project,
+                      },
+                    });
                     window.scrollTo(0, 0);
                   }}
                 >
