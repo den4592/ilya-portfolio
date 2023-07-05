@@ -19,9 +19,10 @@ const Skills = () => {
               <ul className="skills-text blue-text">
                 <li>HTML5</li>
                 <li>CSS3</li>
-                <li>JavaScript(ES6+)</li>
-                <li>React</li>
                 <li>Sass</li>
+                <li>JavaScript(ES6+)</li>
+                <li>TypeScript</li>
+                <li>React</li>
               </ul>
             </div>
             <div className="skills__container-content">
