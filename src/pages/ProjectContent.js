@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import { TiArrowBack } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
-import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const ProjectContent = () => {
