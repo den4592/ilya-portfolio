@@ -4,6 +4,8 @@ import { AiFillPhone } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import selfie from "../assets/img/selfie.jpeg";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Contact = () => {
   const form = useRef();
@@ -78,7 +80,7 @@ const Contact = () => {
           </form>
           <div className="contacts">
             <div className="selfie">
-              <img src={selfie} />
+              <LazyLoadImage effect="blur" src={selfie} alt="selfie" />
             </div>
 
             <div className="email item">
