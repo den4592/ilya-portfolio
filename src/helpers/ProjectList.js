@@ -37,7 +37,7 @@ export const ProjectList = [
     text: "첫번째 포트폴리오 웹 사이트와 비교하여, 리액트 폴더 트리 구조 및 깔끔한 스타일링에 보다 많은 노력을 기울여 저의 두번째 포트폴리오 웹 사이트를 개발하였습니다. ",
     img: second_portfolio,
     build_stack: ["React", "Sass", "framer-motion"],
-    link: "https://byeongju-ilsun.netlify.app",
+    link: "https://ilya-portfolio.netlify.app",
   },
   {
     id: "memory_strike",
