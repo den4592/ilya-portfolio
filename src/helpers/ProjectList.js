@@ -5,6 +5,7 @@ import second_portfolio from "../assets/img/second_portfolio.png";
 import memory_strike from "../assets/img/memorystrike.png";
 import wedding_invitation from "../assets/img/wedding_invitation.png";
 import cherishu from "../assets/img/cherishu.png";
+import redux_toolkit_todo from "../assets/img/redux-toolkit-todo.png";
 
 export const ProjectList = [
   {
@@ -70,6 +71,14 @@ export const ProjectList = [
     text: "팀 프로젝트로 선물 추천 앱인 ‘Cherishu’를 개발하였습니다. 팀원분들과의 원활한 커뮤니케이션을 위해 서비스의 문제점 파악 및 해결 방안을 제의하였습니다. 또한, 디자이너 분과의 협업과 소통을 통해 홈페이지 디자인 관련 피드백을 적극적으로 반영하였습니다. ",
     img: cherishu,
     build_stack: ["React", "TypeScript", "Sass"],
-    link: "https://cherishu.firebaseapp.com/",
+    link: "https://cherishu.firebaseapp.com",
+  },
+  {
+    id: "redux_toolkit_todo",
+    title: "Redux Toolkit Todo",
+    text: "리액트 상태 라이브러리인 Redux Toolkit을 이용해 Todo 앱을 개발하였습니다. 스타일링을 위해서는 Tailwind CSS를 사용하였습니다.",
+    img: redux_toolkit_todo,
+    build_stack: ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+    link: "https://reduxtoolkit-todo.netlify.app",
   },
 ];
