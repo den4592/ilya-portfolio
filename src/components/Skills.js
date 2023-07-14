@@ -23,6 +23,7 @@ const Skills = () => {
                 <li>JavaScript(ES6+)</li>
                 <li>TypeScript</li>
                 <li>React</li>
+                <li>Redux Toolkit</li>
               </ul>
             </div>
             <div className="skills__container-content">
